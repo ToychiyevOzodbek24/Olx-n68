@@ -7,6 +7,14 @@ main_menu = """
 4. Exit
 """
 
+user_menu = """
+1. Show product
+2. Add product
+3. Delete product
+4. Update product
+5. Exit
+"""
+
 
 def get_user_option(menu: str, max_option: int):
     while True:
